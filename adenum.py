@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
 import subprocess
 def run(cmd):
     pipe = subprocess.getstatusoutput(["powershell","-Command", cmd])
